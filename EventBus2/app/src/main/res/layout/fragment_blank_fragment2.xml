@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#705f5b"
+    tools:context=".BlankFragment2">
+
+
+    <TextView
+        android:id="@+id/secondmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#f2efef"
+        android:text="Message"/>
+
+    <Button
+        android:id="@+id/secondbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ec9a28"
+        android:layout_gravity="right|bottom"
+        android:textColor="#f2efef"
+        android:text="send"/>
+
+    <EditText
+        android:id="@+id/secondedit"
+        android:hint="Enter something"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:textColor="#f2efef"
+        android:textColorHint="#f2efef"
+        />
+
+</FrameLayout>

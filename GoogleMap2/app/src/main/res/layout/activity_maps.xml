@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context=".MapsActivity" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#858c86">
+
+       <android.support.design.widget.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+
+          >
+
+           <android.support.design.widget.TextInputEditText
+               android:id="@+id/source"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Enter Source"
+              />
+
+
+       </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/destination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Destination"
+                />
+
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+    </LinearLayout>>
+
+        <Button
+            android:id="@+id/btnroute"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Route"
+            android:background="#595c4c"
+            android:textColor="#efebeb"
+            />
+
+
+
+
+
+
+
+
+</LinearLayout>
